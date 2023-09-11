@@ -2,7 +2,7 @@ bson==0.5.10
 certifi==2023.7.22
 environs==9.5.0
 fastapi==0.103.1
-pydantic==1.8
+pydantic>=1.8
 pymongo==4.5.0
 typing==3.7.4
 uvicorn==0.23.2
