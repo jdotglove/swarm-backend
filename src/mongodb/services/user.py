@@ -1,7 +1,5 @@
 from ..db import database
 
-import logging
-logger = logging.getLogger("__userService__")
 
 def findOneUser(query):
     return database.users.find_one(query)

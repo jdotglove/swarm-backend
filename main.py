@@ -8,8 +8,6 @@ from src.mongodb.services.user import insertOneUser, findOneUser
 from src.mongodb.models import User
 from src.utils.mongodb import JSONEncoder
 from pydantic import BaseModel
-import logging
-logger = logging.getLogger("main")
 
 
 app = FastAPI()
